@@ -1,15 +1,15 @@
 # Persistent 
 Set up environment variables in .env:
 
-CopyOPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=your_openai_api_key
 MONGODB_URI=your_mongodb_uri
 
 Install dependencies:
 For Frontend (React):
 
-bashCopynpm install react lucide-react tailwindcss
+npm install react lucide-react tailwindcss
 For Backend (FastAPI):
-bashCopypip install fastapi uvicorn openai motor python-dotenv
+pip install fastapi uvicorn openai motor python-dotenv
 
 Implementation steps:
 
